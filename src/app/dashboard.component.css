@@ -39,6 +39,9 @@ h3 {
 .highlight {
   background-color: purple;
 }
+.add-hero-button {
+  display: block;
+}
 h4 {
   position: relative;
 }
