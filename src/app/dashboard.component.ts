@@ -11,7 +11,8 @@ import { HeroService } from './hero.service';
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
-  isHighlightingLong: boolean;
+  isHighlightingLong1: boolean;
+  isHighlightingLong2: boolean;
 
   constructor(
     private router: Router,
