@@ -3,12 +3,12 @@
   <label class="long-name-highlight-field">
     <input type="checkbox"
       [(ngModel)]="isHighlightingLong1" />
-    Highlight heroes with long names (bind class)
+    Highlight heroes with long names (bind class)!
   </label>
   <label class="long-name-highlight-field">
     <input type="checkbox"
       [(ngModel)]="isHighlightingLong2" />
-    Highlight heroes with long names (bind style)
+    Highlight heroes with long names (bind style)!
   </label>
   <div *ngFor="let hero of heroes"
     (click)="gotoDetail(hero)"
